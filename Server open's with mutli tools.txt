@@ -1,0 +1,75 @@
+Server opens with Git bash .
+----------------------------
+
+1. generate public and private keys 
+
+2. Rename public as .pub and private as .pem
+
+3. Import a key pair in aws console for that import public key .
+
+4. create a new instance in aws and add key pair along with security group.
+
+5. copy the private key ( .pem ) and ip address of created instance in this command ( ssh -i Don.pem ec2-user@18.212.151.137).
+
+6.paste that command to open the server with git bash .
+
+7. server opened ***Done 
+
+============================================================================================================================================================================================
+
+server opens with putty .
+----------------------------
+
+1. generate public and private keys 
+
+2. Rename public as .pub and private as .pem
+
+3. Import a key pair in aws console for that import public key .
+
+4. create a new instance in aws and add key pair along with security group.
+
+5. Open the puttygen and load the .pem file
+
+6. Save it as .ppk file
+
+7. Next open the putty add Ip address , give session name , in data option give the user name and browse the .ppk file in SSH-Auth-credentials
+
+8. Compulsary save it .
+
+9. open it 
+
+10 . Accept/ connect once in the dialogue box.
+
+11. server opened ***Done
+
+============================================================================================================================================================================================
+
+server opens with super putty .
+-------------------------------
+
+1. After opening the putty , open the super putty 
+
+2. Enter the Host Id and session , 
+
+3. Server opened with super putty ***Done
+
+============================================================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
