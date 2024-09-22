@@ -53,7 +53,20 @@ server opens with super putty .
 
 3. Server opened with super putty ***Done
 
-============================================================================================================================================================================================
+====================================================================================================================================================================
+
+Clone server with git .
+-------------------------
+
+1. sudo yum install git .
+2. git clone https://github.com/Yeswanth925/The-first-repo.git
+
+AND
+   If you want to run the script :-
+
+1. sh <script name>
+2. If we added any new script in git  and we want to run that new script then use " git pull "
+
 
 
 
